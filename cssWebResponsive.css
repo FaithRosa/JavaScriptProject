@@ -1,0 +1,62 @@
+/*
+    CIS 301 Final Part 1 Style Sheet
+    Author: Victoria Rosa
+    Date:  10.18.23
+    Filename: Victoria's CSS Projects
+
+*/
+
+/* HTML Styles */
+
+html {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Header Styles */
+
+header {
+    text-align:center;
+}
+/* Table Styles */
+
+table{
+    background-color: lightgreen;
+    border: 1px solid rgb(7, 75, 22);
+    border-collapse: collapse;
+    width: 600px;
+    margin:auto;
+}
+
+th#name {
+    text-align:left;
+}
+
+th#alsoName, th#name {
+    padding: 3px;
+}
+
+tr, th, td {
+    border: 1px solid rgb(45, 199, 58);
+    border-collapse: collapse;
+    color: black;
+    padding: 3px;
+}
+
+/* Images Styles */
+
+img {
+    padding: 10px;
+    border: 3px solid green;
+    height: 200px;
+    width: 150px;
+    display:block;
+    margin:auto;
+    padding: 3px;
+}
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+}
